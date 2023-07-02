@@ -1,0 +1,78 @@
+#foto-principal {
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
+    border-style: outset;
+}
+
+img {
+    position: relative;
+}
+
+h1,
+h2,
+h3 {
+    padding-left: 50px;
+}
+
+body {
+    background-color: darkolivegreen;
+    font-size: 30px;
+}
+
+
+p {
+    padding-left: 5%;
+    font-size: 30px;
+}
+
+li {
+    padding-left: 5%;
+    font-size: 30px;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+/*Abaixo está o rodapé(footer)*/
+
+.main-footer {
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.main-footer .desenho {
+    right: 880px;
+    padding-left: 30px;
+    padding: 5px;
+    padding-left: 10%;
+}
+
+.main-footer .mensagem {
+    padding-right: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+.main-footer .icones {
+    bottom: 150px;
+    left: 800px;
+}
